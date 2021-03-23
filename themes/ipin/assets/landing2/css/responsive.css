@@ -1,0 +1,98 @@
+/* Large desktop */
+@media (max-width: 1270px) {
+	.wrapper {
+		width: 940px;
+	}
+	
+}
+/* Landscape phones and down */
+@media (max-width: 970px) {
+	.wrapper {
+	    width: 67%;
+	}
+	nav {
+    	display: none;
+    }
+}
+@media (max-width: 630px) {
+	.wrapper {
+	    width: 67%;
+	}
+	#intro .content {
+		width: 380px;
+	}
+	#intro .content img {
+		width: 300px;
+	}
+	#intro .content .title {
+		font-size: 22px;
+	}
+	#intro .content .description {
+		font-size: 20px;
+   		margin: 0 auto;
+        position: relative;
+         z-index: 1;
+	}
+	.badges {
+	    right: 90px;
+	}
+	nav {
+    	display: none;
+    }
+    #intro .content .description span {
+        border: none!important;
+    }
+}
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 425px) {
+	.wrapper {
+		width: 100%;
+	}
+	#intro {
+    	height: 640px;
+    }
+    #intro .content {
+    	top: 30%;
+    	width: 100%;
+    }
+    #intro .content img {
+    	width: 240px;
+    }
+    #intro .content .title {
+    	font-size: 26px;
+    }
+    #intro .content .description {
+    	font-size: 15px;
+    	margin: 0 auto;
+    	position: relative;
+    	z-index: 10;
+    }
+    #intro .content .description span {
+        border: none!important;
+    }
+    nav {
+    	display: none;
+    }
+    .badges {
+    	top: 330px;
+    	right: 50px;
+    }
+    
+    #items .item {
+    	margin-left: 0;
+    }
+    #intro .arrow {
+		margin-left: 0;
+    }
+
+    #footer {
+    	text-align: center;
+    }
+    #footer #social {
+    	float: none;
+    }
+    #footer #social li a {
+    	margin-right: 2px;
+    }
+
+}

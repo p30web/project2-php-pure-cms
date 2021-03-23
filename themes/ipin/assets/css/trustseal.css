@@ -1,0 +1,203 @@
+* {
+    font-family: Tahoma,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+img{
+    width: 100%!important;
+}
+body {
+    font-size: 13px;
+    margin: 0px;
+    text-align: justify;
+    background-color: #eef9ff;
+    padding: 0px;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: #244b9f;
+}
+
+.a2 {
+    font-weight: bold;
+    color: #990000;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+td.cell3 a {
+    color: #ffffff
+}
+
+h1, p, p a {
+    color: #ffffff !important;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+
+#container {
+    width: 560px;
+    height: 116px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#container2 {
+    width: 760px;
+    height: 116px;
+}
+
+form {
+    float: right;
+    margin-top: 11px;
+}
+
+#vrsn_seal {
+    float: left;
+}
+
+#sealContainer {
+    height: 122px;
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+#main {
+    background-color: #eef9ff;
+    font-size: .9em;
+    padding: 6px 9px 6px 10px;
+}
+
+/* Header and footer content line up on left */
+#header, #footer {
+    padding-left: 15px;
+}
+
+#header {
+    padding-right: 9px;
+    padding-bottom: 5px;
+}
+
+#content {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#subContent1 .cell2 {
+    text-align: left;
+}
+
+#subContent2 {
+    background-color: #ecaf6a;
+}
+
+#subContent2 tr td.cell2 {
+    white-space: nowrap;
+    color: #244b9f;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+tfoot td {
+    padding: 0px;
+}
+
+.cell1 {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.cell2 {
+    font-weight: bold;
+}
+
+.cell3 {
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+.cell4 {
+    padding-left: 15px;
+    padding-right: 5px;
+    color: #244b9f;
+    text-align: justify;
+}
+
+tr.lastGrey {
+    background-image: none !important;
+}
+
+tr.lastGrey td {
+    padding-bottom: 0px;
+}
+
+tr.lastRed td {
+    padding-bottom: 10px;
+}
+
+#footer {
+    margin-top: 5px;
+}
+
+#reportSealMisuse {
+    margin: 15px 0px;
+}
+
+.red_bl {
+    background:  no-repeat #244b9f;
+}
+
+
+.clearCorners {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+div.report, div.promote-link {
+    float: right;
+    font-size: 11px;
+    width: 165px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+div.clear {
+    clear: right;
+    line-height: 0;
+    height: 0;
+}
+
+div.promote-link {
+    margin: 4px 0;
+}
+
+div.promote {
+    margin-top: 4px;
+}
+
+.style1 {
+    height: 19px;
+}
+
+.style2 {
+    font-size: medium;
+}
+
+.style3 {
+    font-size: small;
+}

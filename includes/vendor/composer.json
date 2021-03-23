@@ -1,0 +1,12 @@
+{
+  "name": "wilkins/composer-file-loader",
+  "type": "library",
+  "description": "Load composer file",
+  "autoload": {
+    "psr-4": {
+      "Medoo\\":"catfan/medoo/src/",
+      "PHPMailer\\":"phpmailer/phpmailer/src/",
+      "ImageOptimizer\\":"image-optimizer/src/ImageOptimizer/"
+    }
+  }
+}

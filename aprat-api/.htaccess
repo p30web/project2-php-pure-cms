@@ -1,0 +1,9 @@
+
+
+# <IfModule mod_rewrite.c>
+# RewriteEngine on
+# RewriteRule ^(home|api|categories)?$ index.php?m=$1 [L]
+# RewriteRule ^v/(.*)/(.*)$ index.php?m=view&id=$1 [QSA]
+# RewriteRule ^v/(.*)$ index.php?m=view&id=$1 [QSA]
+# RewriteRule ^categories/id/(.*)$ index.php?m=categories&id=$1 [QSA]
+# </IfModule>
